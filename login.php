@@ -15,12 +15,12 @@
 
           <div class="field input">
             <label>Email Address</label>
-            <input type="email" placeholder="Email Address" required />
+            <input type="email" name="email" placeholder="Email Address" required />
           </div>
 
           <div class="field input">
             <label>Password</label>
-            <input type="password" placeholder="Password" required />
+            <input type="password" name="password" placeholder="Password" required />
             <i class="fas fa-eye"></i>
           </div>
 
@@ -29,9 +29,10 @@
           </div>
         </form>
 
-        <div class="link">Not yet signed up? <a href="#">signup now</a></div>
+        <div class="link">Not yet signed up? <a href="index.php">signup now</a></div>
       </section>
     </div>
     <script src="javascript/pass-show-hide.js"></script>
+    <script src="javascript/login.js"></script>
   </body>
 </html>
