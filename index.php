@@ -10,33 +10,33 @@
     <div class="wrapper">
       <section class="form signup">
         <header>Real Time Chat App</header>
-        <form action="#">
-          <div class="error-txt">This is an error message</div>
+        <form action="#" method="POST" enctype="multipart/form-data">
+          <div class="error-txt"></div>
 
           <div class="name-details">
             <div class="field input">
               <label>First Name</label>
-              <input type="text" placeholder="First Name" required />
+              <input type="text" name="fname" placeholder="First Name" required />
             </div>
             <div class="field input">
               <label>Last Name</label>
-              <input type="text" placeholder="Last Name" required />
+              <input type="text" name="lname" placeholder="Last Name" required />
             </div>
           </div>
 
           <div class="field input">
             <label>Email Address</label>
-            <input type="email" placeholder="Email Address" required />
+            <input type="email" name="email" placeholder="Email Address" required />
           </div>
 
           <div class="field input">
             <label>Password</label>
-            <input type="password" placeholder="Password" required />
+            <input type="password" name="password" placeholder="password" required />
           </div>
 
           <div class="field image">
             <label>Select Image</label>
-            <input type="file" accept="image/*" required />
+            <input type="file" name="image" required />
           </div>
 
           <div class="field button">
