@@ -10,7 +10,7 @@
     <div class="wrapper">
       <section class="form signup">
         <header>Real Time Chat App</header>
-        <form action="#" method="POST" enctype="multipart/form-data">
+        <form action="#" method="POST" enctype="multipart/form-data" autocomplete="off">
           <div class="error-txt"></div>
 
           <div class="name-details">
@@ -44,7 +44,7 @@
           </div>
         </form>
 
-        <div class="link">Already signed up? <a href="#">Login now</a></div>
+        <div class="link">Already signed up? <a href="login.php">Login now</a></div>
       </section>
     </div>
     <script src="javascript/pass-show-hide.js"></script>
